@@ -270,10 +270,10 @@ def main():
             success = interrupter.continuous_spam_with_monitor()
         
         if success:
-            print("\n🎯 U-Boot interrupt successful!")
+            print("\n U-Boot interrupt successful!")
             print("You should now be at the U-Boot prompt")
         else:
-            print("\n❌ Could not confirm U-Boot interrupt")
+            print("\n Could not confirm U-Boot interrupt")
             
     finally:
         interrupter.disconnect()
